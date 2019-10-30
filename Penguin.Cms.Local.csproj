@@ -1,0 +1,117 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms</PackageProjectUrl>
+    <Version>0.9.0</Version>
+    <Description>Not Available</Description>
+    <AssemblyName>Penguin.Cms</AssemblyName>
+    <RootNamespace>Penguin.Cms</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Penguin.Auditing.Abstractions\Penguin.Auditing.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Authentication.OWA\Penguin.Authentication.OWA.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Configuration\Penguin.Cms.Configuration.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Core\Penguin.Cms.Core.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Email\Penguin.Cms.Email.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Email.Abstractions\Penguin.Cms.Email.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Email.DependencyInjection\Penguin.Cms.Email.DependencyInjection.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Email.Templating\Penguin.Cms.Email.Templating.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Email.Templating.Repositories\Penguin.Cms.Email.Templating.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Entities\Penguin.Cms.Entities.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Errors\Penguin.Cms.Errors.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Files\Penguin.Cms.Files.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Files.Repositories\Penguin.Cms.Files.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Forms\Penguin.Cms.Forms.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Forms.Repositories\Penguin.Cms.Forms.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Images\Penguin.Cms.Images.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Images.Repositories\Penguin.Cms.Images.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.InternalMessaging\Penguin.Cms.InternalMessaging.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.InternalMessaging.Repositories\Penguin.Cms.InternalMessaging.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Admin\Penguin.Cms.Modules.Admin.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Configuration\Penguin.Cms.Modules.Configuration.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Core\Penguin.Cms.Modules.Core.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Dynamic\Penguin.Cms.Modules.Dynamic.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Email\Penguin.Cms.Modules.Email.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Errors\Penguin.Cms.Modules.Errors.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Files\Penguin.Cms.Modules.Files.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Forms\Penguin.Cms.Modules.Forms.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Images\Penguin.Cms.Modules.Images.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.InternalMessaging\Penguin.Cms.Modules.InternalMessaging.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Navigation\Penguin.Cms.Modules.Navigation.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Pages\Penguin.Cms.Modules.Pages.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Reporting\Penguin.Cms.Modules.Reporting.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Modules.Security\Penguin.Cms.Modules.Security.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Navigation\Penguin.Cms.Navigation.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Navigation.Repositories\Penguin.Cms.Navigation.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Pages\Penguin.Cms.Pages.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Pages.Repositories\Penguin.Cms.Pages.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Reporting\Penguin.Cms.Reporting.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Repositories\Penguin.Cms.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Security\Penguin.Cms.Security.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Security.Repositories\Penguin.Cms.Security.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Web\Penguin.Cms.Web.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Web.Errors\Penguin.Cms.Web.Errors.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Web.Files\Penguin.Cms.Web.Files.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Web.Pages\Penguin.Cms.Web.Pages.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Web.Security\Penguin.Cms.Web.Security.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Configuration\Penguin.Configuration.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Configuration.Abstractions\Penguin.Configuration.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Debugging\Penguin.Debugging.Local.csproj" />
+    <ProjectReference Include="..\Penguin.DependencyInjection\Penguin.DependencyInjection.Local.csproj" />
+    <ProjectReference Include="..\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Email\Penguin.Email.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Email.Templating\Penguin.Email.Templating.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Extensions.Collections\Penguin.Extensions.Collections.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Extensions.Exceptions\Penguin.Extensions.Exceptions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Files\Penguin.Files.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Forms.Abstractions\Penguin.Forms.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Images\Penguin.Images.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Abstractions\Penguin.Messaging.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Application\Penguin.Messaging.Application.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Core\Penguin.Messaging.Core.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Logging\Penguin.Messaging.Logging.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Persistence\Penguin.Messaging.Persistence.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Navigation.Abstractions\Penguin.Navigation.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.Database\Penguin.Persistence.Database.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.Database.Serialization.Extensions\Penguin.Persistence.Database.Serialization.Extensions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.DependencyInjection\Penguin.Persistence.DependencyInjection.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.EntityFramework\Penguin.Persistence.EntityFramework.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.Repositories\Penguin.Persistence.Repositories.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.Repositories.EntityFramework\Penguin.Persistence.Repositories.EntityFramework.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection\Penguin.Reflection.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Dynamic\Penguin.Reflection.Dynamic.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Serialization\Penguin.Reflection.Serialization.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Serialization.Abstractions\Penguin.Reflection.Serialization.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Serialization.Extensions\Penguin.Reflection.Serialization.Extensions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Security\Penguin.Security.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Security.Abstractions\Penguin.Security.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Shared.Objects\Penguin.Shared.Objects.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Testing\Penguin.Testing.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Threading.BackgroundWorker\Penguin.Threading.BackgroundWorker.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Abstractions\Penguin.Web.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Configuration\Penguin.Web.Configuration.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Data\Penguin.Web.Data.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.DependencyInjection\Penguin.Web.DependencyInjection.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Dynamic\Penguin.Web.Dynamic.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Email.Templating\Penguin.Web.Email.Templating.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Errors\Penguin.Web.Errors.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Extensions\Penguin.Web.Extensions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Mvc\Penguin.Web.Mvc.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Mvc.Abstractions\Penguin.Web.Mvc.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Security\Penguin.Web.Security.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Templating\Penguin.Web.Templating.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Web.Testing\Penguin.Web.Testing.Local.csproj" />
+  </ItemGroup>
+  <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
+</Project>
