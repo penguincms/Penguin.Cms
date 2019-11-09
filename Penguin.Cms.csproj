@@ -20,10 +20,10 @@
     <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="1.0.1-T9MJTCE" />
     <PackageReference Include="Penguin.Cms.Modules.Security" Version="1.0.1-T9MJTCE" />
     <PackageReference Include="Penguin.Cms.Modules.Configuration" Version="1.0.1-T9MJTCE" />
-    <PackageReference Include="Penguin.Cms.Modules.Files" Version="1.0.1-T9MJTCE" />
     <PackageReference Include="Penguin.Cms.Modules.Images" Version="1.0.1-T9MJTCE" />
     <PackageReference Include="Penguin.Cms.Modules.Email" Version="1.0.2-T9MJTCE" />
     <PackageReference Include="Penguin.Persistence.Repositories.EntityFramework" Version="4.2.5-T9MK74W" />
+    <PackageReference Include="Penguin.Cms.Modules.Files" Version="1.0.1-T9MM480" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
