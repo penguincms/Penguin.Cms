@@ -6,7 +6,7 @@ using System;
 using System.Diagnostics;
 using DependencyEngine = Penguin.DependencyInjection.Engine;
 
-namespace Penguin.Database
+namespace Penguin.Cms.Database
 {
     public class ContextFactory : DynamicContextFactory
     {
