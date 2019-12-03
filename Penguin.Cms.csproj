@@ -21,9 +21,9 @@
     <PackageReference Include="Penguin.Cms.Modules.Email" Version="1.0.2-T9N916Q" />
     <PackageReference Include="Penguin.Cms.Modules.InternalMessaging" Version="1.0.1-T9N916Q" />
     <PackageReference Include="Penguin.Cms.Modules.Security" Version="1.0.1-T9N916Q" />
-    <PackageReference Include="Penguin.Cms.Modules.Files" Version="1.0.1-T9N916Q" />
     <PackageReference Include="Penguin.Persistence.EntityFramework" Version="4.0.2-T9NRS3A" />
     <PackageReference Include="Penguin.Persistence.Repositories.EntityFramework" Version="4.2.5-T9NRS3A" />
+    <PackageReference Include="Penguin.Cms.Modules.Files" Version="1.0.1-T9NUEL4" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
