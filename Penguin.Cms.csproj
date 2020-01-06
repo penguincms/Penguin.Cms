@@ -23,7 +23,7 @@
     <PackageReference Include="Penguin.Cms.Modules.InternalMessaging" Version="1.0.1-T9P1VVS" />
     <PackageReference Include="Penguin.Cms.Modules.Security" Version="1.0.1-T9P1VVS" />
     <PackageReference Include="Penguin.Cms.Modules.Files" Version="1.0.1-T9P1VVS" />
-    <PackageReference Include="Penguin.Cms.Modules.Images" Version="1.0.1-T9PMI94" />
+    <PackageReference Include="Penguin.Cms.Modules.Images" Version="1.0.1-T9PMIC9" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
