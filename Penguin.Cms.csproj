@@ -18,12 +18,12 @@
     <PackageReference Include="Penguin.Cms.Modules.Forms" Version="1.0.1-T9OJWL8" />
     <PackageReference Include="Penguin.Cms.Modules.Navigation" Version="1.0.1-T9OJWL8" />
     <PackageReference Include="Penguin.Cms.Modules.Pages" Version="1.0.1-T9OJWL8" />
-    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="1.0.1-T9OJWL8" />
     <PackageReference Include="Penguin.Cms.Modules.Configuration" Version="1.0.1-T9OJWL8" />
     <PackageReference Include="Penguin.Cms.Modules.Images" Version="1.0.1-T9OJWL8" />
     <PackageReference Include="Penguin.Cms.Modules.Email" Version="1.0.2-T9OJWL8" />
     <PackageReference Include="Penguin.Cms.Modules.Security" Version="1.0.1-T9OJWL8" />
     <PackageReference Include="Penguin.Cms.Modules.Files" Version="1.0.1-T9OJWL8" />
+    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="1.0.1-T9Q14GM" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
