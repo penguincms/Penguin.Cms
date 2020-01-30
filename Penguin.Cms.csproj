@@ -6,6 +6,7 @@
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Cms</AssemblyName>
     <RootNamespace>Penguin.Cms</RootNamespace>
+    <DocumentationFile>Penguin.Cms.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Persistence.DependencyInjection" Version="3.0.2-T9QC72V" />
