@@ -14,17 +14,17 @@
     <PackageReference Include="Penguin.Cms.Modules.Macros" Version="1.0.1-T9UW4G4" />
     <PackageReference Include="Penguin.Persistence.EntityFramework" Version="4.0.2-T9UW4G4" />
     <PackageReference Include="Penguin.Persistence.Repositories.EntityFramework" Version="4.2.5-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.InternalMessaging" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Errors" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Forms" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Images" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Email" Version="1.0.2-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Files" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Security" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Pages" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Configuration" Version="1.0.1-T9UW4G4" />
-    <PackageReference Include="Penguin.Cms.Modules.Navigation" Version="1.0.1-T9UW4G4" />
+    <PackageReference Include="Penguin.Cms.Modules.InternalMessaging" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Errors" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Forms" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Images" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Email" Version="1.0.2-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Files" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Security" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Pages" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Configuration" Version="1.0.1-T9V819P" />
+    <PackageReference Include="Penguin.Cms.Modules.Navigation" Version="1.0.1-T9V819P" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
