@@ -8,8 +8,16 @@ using DependencyEngine = Penguin.DependencyInjection.Engine;
 
 namespace Penguin.Cms.Database
 {
+    /// <summary>
+    /// A factory for generating an instance of a Dynamic Context, required for calling database commands
+    /// from the powershell command line
+    /// </summary>
     public class ContextFactory : DynamicContextFactory
     {
+        /// <summary>
+        /// Creates a new instance of the Dynamic Context
+        /// </summary>
+        /// <returns></returns>
         public override DynamicContext Create()
         {
             if (!DependencyEngine.IsRegistered<IConfiguration>())

@@ -4,5 +4,17 @@
         <name>Penguin.Cms</name>
     </assembly>
     <members>
+        <member name="T:Penguin.Cms.Database.ContextFactory">
+            <summary>
+            A factory for generating an instance of a Dynamic Context, required for calling database commands
+            from the powershell command line
+            </summary>
+        </member>
+        <member name="M:Penguin.Cms.Database.ContextFactory.Create">
+            <summary>
+            Creates a new instance of the Dynamic Context
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>
