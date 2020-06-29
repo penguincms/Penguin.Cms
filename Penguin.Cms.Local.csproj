@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms</PackageProjectUrl>
-    <Version>0.9.0</Version>
+    <Version>5.0.0</Version>
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Cms</AssemblyName>
     <RootNamespace>Penguin.Cms</RootNamespace>
