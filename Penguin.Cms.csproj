@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Cms</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Cms</AssemblyName>
@@ -9,22 +9,22 @@
     <DocumentationFile>Penguin.Cms.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Persistence.DependencyInjection" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Core" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Macros" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Persistence.EntityFramework" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Persistence.Repositories.EntityFramework" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.InternalMessaging" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Errors" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Forms" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Images" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Pages" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Navigation" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Configuration" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Security" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Email" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Modules.Files" Version="5.0.6-TAEO1KM" />
+    <PackageReference Include="Penguin.Persistence.DependencyInjection" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Core" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Macros" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Persistence.EntityFramework" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Persistence.Repositories.EntityFramework" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.InternalMessaging" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Errors" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Forms" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Images" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Pages" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Navigation" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Configuration" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Email" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Files" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Modules.Security" Version="5.0.6-TAHULSY" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
