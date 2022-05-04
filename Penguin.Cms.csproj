@@ -9,22 +9,22 @@
     <DocumentationFile>Penguin.Cms.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Persistence.DependencyInjection" Version="5.0.6-TAWVHS0" />
-    <PackageReference Include="Penguin.Cms.Core" Version="5.0.6-TAWVHS0" />
-    <PackageReference Include="Penguin.Cms.Modules.Macros" Version="5.0.6-TAWVHS0" />
-    <PackageReference Include="Penguin.Persistence.EntityFramework" Version="5.0.6-TAWVHS0" />
-    <PackageReference Include="Penguin.Persistence.Repositories.EntityFramework" Version="5.0.6-TAWVHS0" />
-    <PackageReference Include="Penguin.Cms.Modules.InternalMessaging" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Errors" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Forms" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Pages" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Navigation" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Configuration" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Images" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Files" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Email" Version="5.0.6-TAWW2RL" />
-    <PackageReference Include="Penguin.Cms.Modules.Security" Version="5.0.6-TAWW2RL" />
+    <PackageReference Include="Penguin.Persistence.DependencyInjection" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Core" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Macros" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Persistence.EntityFramework" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Persistence.Repositories.EntityFramework" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.InternalMessaging" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Errors" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Forms" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Pages" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Navigation" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Configuration" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Images" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Files" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Email" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Cms.Modules.Security" Version="5.0.6-TAX9354" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
