@@ -24,7 +24,7 @@ namespace Penguin.Cms.Database
             {
                 string stack = string.Empty;
 
-                StackTrace stackTrace = new StackTrace();
+                StackTrace stackTrace = new();
 
                 for (int i = 0; i < stackTrace.FrameCount; i++)
                 {
