@@ -75,7 +75,6 @@
     <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj" />
     <ProjectReference Include="..\Penguin.Files\Penguin.Files.Local.csproj" />
     <ProjectReference Include="..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj" />
-    <ProjectReference Include="..\Penguin.FileStreams\Penguin.FileStreams.Local.csproj" />
     <ProjectReference Include="..\Penguin.Forms.Abstractions\Penguin.Forms.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Images\Penguin.Images.Local.csproj" />
     <ProjectReference Include="..\Penguin.Json\Penguin.Json.Local.csproj" />
