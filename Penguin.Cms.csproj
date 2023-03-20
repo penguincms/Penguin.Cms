@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Cms</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Cms</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Cms</AssemblyName>
@@ -10,8 +10,8 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Persistence.DependencyInjection" Version="5.2.0" />
-    <PackageReference Include="Penguin.Cms.Core" Version="5.2.0" />
+    <PackageReference Include="Penguin.Persistence.EntityFramework" Version="5.2.0" />
+    <PackageReference Include="Penguin.Cms.Modules.Reporting" Version="5.2.0" />
     <PackageReference Include="Penguin.Cms.Modules.Macros" Version="5.2.0" />
     <PackageReference Include="Penguin.Persistence.EntityFramework" Version="5.2.0" />
     <PackageReference Include="Penguin.Persistence.Repositories.EntityFramework" Version="5.2.0" />
