@@ -88,7 +88,6 @@
     <ProjectReference Include="..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Persistence.Database\Penguin.Persistence.Database.Local.csproj" />
     <ProjectReference Include="..\Penguin.Persistence.Database.Serialization.Extensions\Penguin.Persistence.Database.Serialization.Extensions.Local.csproj" />
-    <ProjectReference Include="..\Penguin.Persistence.DependencyInjection\Penguin.Persistence.DependencyInjection.Local.csproj" />
     <ProjectReference Include="..\Penguin.Persistence.EntityFramework\Penguin.Persistence.EntityFramework.Local.csproj" />
     <ProjectReference Include="..\Penguin.Persistence.Repositories\Penguin.Persistence.Repositories.Local.csproj" />
     <ProjectReference Include="..\Penguin.Persistence.Repositories.EntityFramework\Penguin.Persistence.Repositories.EntityFramework.Local.csproj" />
@@ -105,7 +104,6 @@
     <ProjectReference Include="..\Penguin.SystemExtensions.Abstractions\Penguin.SystemExtensions.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Testing\Penguin.Testing.Local.csproj" />
-    <ProjectReference Include="..\Penguin.Threading.BackgroundWorker\Penguin.Threading.BackgroundWorker.Local.csproj" />
     <ProjectReference Include="..\Penguin.Web.Abstractions\Penguin.Web.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Web.Configuration\Penguin.Web.Configuration.Local.csproj" />
     <ProjectReference Include="..\Penguin.Web.Data\Penguin.Web.Data.Local.csproj" />
